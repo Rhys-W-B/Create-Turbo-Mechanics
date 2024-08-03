@@ -8,6 +8,7 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.RegistryObject;
+import net.rwbrocke.createTurboMechanics.block.ModBlocks;
 import net.rwbrocke.createTurboMechanics.createTurboMechanics;
 
 public class ModCreativemodeTabs {
@@ -19,7 +20,12 @@ public class ModCreativemodeTabs {
                     .title(Component.translatable("creativetab.turbomechanics"))
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(ModItems.CHROMIUM_INGOT.get());
-                        pOutput.accept(ModItems.RAW_CHROMOIM.get());
+                        pOutput.accept(ModItems.RAW_CHROMITE.get());
+                        pOutput.accept(ModItems.CRUSHED_CHROMIUM.get());
+                        pOutput.accept(ModItems.CRUSTY_INGOT.get());
+                        pOutput.accept(ModBlocks.CHROMITE_ORE.get());
+                        pOutput.accept(ModBlocks.BLOCK_OF_CHROMIUM.get());
+                        pOutput.accept(ModBlocks.BLOCK_OF_RAW_CHROMITE.get());
                     })
                     .build());
 

@@ -1,5 +1,12 @@
 {
   "item.createturbomechanics.chromiumingot": "Chromium Ingot",
-  "item.createturbomechanics.rawchromium": "Raw Chromium",
+  "item.createturbomechanics.rawchromite": "Raw Chromite",
+  "item.createturbomechanics.crushedchromium": "Crushed Chromium",
+  "item.createturbomechanics.crustyingot": "Crusty Ingot",
+
+  "block.createturbomechanics.chromiteore": "Chromite Ore",
+  "block.createturbomechanics.chromiumblock": "Block of Chromium",
+  "block.createturbomechanics.rawchromiteblock": "Block of Raw Chromite",
+
   "creativetab.turbomechanics": "Create: Turbo Mechanics"
 }

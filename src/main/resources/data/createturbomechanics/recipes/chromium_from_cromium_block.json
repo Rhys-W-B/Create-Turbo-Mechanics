@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "createturbomechanics:chromiumblock"
+    }
+  ],
+  "result": {
+    "item": "createturbomechanics:chromiumingot",
+    "count": 9
+  }
+}

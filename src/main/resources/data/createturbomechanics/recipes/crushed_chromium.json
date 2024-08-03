@@ -1,0 +1,26 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "createturbomechanics:rawchromite"
+    }
+  ],
+  "processingTime": 400,
+  "results": [
+    {
+      "item": "createturbomechanics:crushedchromium"
+    },
+    {
+      "chance": 0.50,
+      "item": "createturbomechanics:crushedchromium"
+    },
+    {
+      "chance": 0.50,
+      "item": "create:crushed_raw_iron"
+    },
+    {
+      "chance": 0.75,
+      "item": "create:experience_nugget"
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "createturbomechanics:item/rawchromium"
+    "layer0": "createturbomechanics:item/raw_chromite"
   }
 }

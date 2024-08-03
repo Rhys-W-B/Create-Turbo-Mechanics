@@ -27,6 +27,7 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
+import net.rwbrocke.createTurboMechanics.block.ModBlocks;
 import net.rwbrocke.createTurboMechanics.item.ModCreativemodeTabs;
 import net.rwbrocke.createTurboMechanics.item.ModItems;
 import org.slf4j.Logger;
@@ -45,6 +46,8 @@ public class createTurboMechanics
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ModItems.register(modEventBus);
+
+        ModBlocks.register(modEventBus);
 
         ModCreativemodeTabs.register(modEventBus);
 

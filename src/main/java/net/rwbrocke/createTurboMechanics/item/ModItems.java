@@ -14,7 +14,14 @@ public class ModItems {
 
     public static final RegistryObject<Item> CHROMIUM_INGOT = ITEMS.register("chromiumingot",
             () -> new Item(new Item.Properties()));
-    public static final RegistryObject<Item> RAW_CHROMOIM = ITEMS.register("rawchromium",
+
+    public static final RegistryObject<Item> RAW_CHROMITE = ITEMS.register("rawchromite",
+            ()-> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> CRUSHED_CHROMIUM = ITEMS.register("crushedchromium",
+            ()-> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> CRUSTY_INGOT = ITEMS.register("crustyingot",
             ()-> new Item(new Item.Properties()));
 
     public static void register(IEventBus eventBus){
